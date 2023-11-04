@@ -16,11 +16,13 @@ export const Ul = styled.ul(props => {
 });
 
 export const Li = styled.li(props => {
-  const style = {};
-  return style;
+  return {};
 });
 
 export const Span = styled.span(props => {
-  const style = {};
-  return style;
+  return {};
+});
+
+export const Tr = styled.tr(props => {
+  return {};
 });
