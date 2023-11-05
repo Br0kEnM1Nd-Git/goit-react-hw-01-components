@@ -12,6 +12,6 @@ export const IsOnlineSpan = styled(Span)(props => {
     display: 'block',
     width: '100px',
     height: '100%',
-    backgroundColor: props.isonline === true ? 'green' : 'red',
+    backgroundColor: props.isonline === 'true' ? 'green' : 'red',
   };
 });
